@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  border: 1px solid #150b3e;
+  border-radius: 15px;
+  background-color: #150b3e;
+  min-width: 30vw;
+  min-height: 65vh;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  border-width: none;
+  border-radius: 30px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 35px;
+}
+.logo-title {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-title {
+  color: #585076;
+  margin-left: 20px;
+}
+.balance-amount {
+  color: #d4d2db;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.span-tag {
+  font-size: 12px;
+  color: #585076;
+}
+.withdraw-container {
+  margin-left: 20px;
+}
+.withdraw-title {
+  color: #c4c4c4;
+  font-size: 24px;
+}
+.withdraw-para {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
